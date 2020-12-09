@@ -10,6 +10,7 @@ import { DetailPersonneComponent } from './cv/detail-personne/detail-personne.co
 
 // todo
 const routes: Routes = [
+  { path: '**', component: CvComponent },
   { path: 'cv', component: CvComponent },
   { path: 'cv/:id', component: DetailPersonneComponent },
   { path: 'todo', component: TodoComponent },
